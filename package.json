@@ -1,0 +1,28 @@
+{
+  "name": "ng2loggerbasic",
+  "version": "0.0.1",
+  "description": "angular2 logger with log levels",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "tsc",
+    "postinstall": "typings install",
+    "typings": "typings"
+  },
+  "author": "Gopalakrishnan Thirunellayi Ramachandran",
+  "license": "ISC",
+  "typings": "./ng2-logger-basic.d.ts",
+  "dependencies": {
+    "@angular/common": "2.0.0-rc.1",
+    "@angular/compiler": "2.0.0-rc.1",
+    "@angular/core": "2.0.0-rc.1",    
+    "es6-shim": "^0.35.0",
+    "reflect-metadata": "0.1.3",
+    "rxjs": "5.0.0-beta.6",
+    "systemjs": "0.19.26",
+    "zone.js": "^0.6.12"
+  },
+  "devDependencies": {
+    "typescript": "^1.8.10",
+    "typings": "^1.3.1"
+  }
+}
