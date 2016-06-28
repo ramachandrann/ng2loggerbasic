@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "angular2 logger with log levels",
   "main": "index.js",
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/ramachandrann/ng2loggerbasic.git"
+  },
   "scripts": {
     "prepublish": "tsc",
     "postinstall": "typings install",
